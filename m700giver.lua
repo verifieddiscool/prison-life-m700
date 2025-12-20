@@ -116,9 +116,10 @@ function collectM700()
 		end
 	end
 
-	rem:SetAttribute("ProjectileCount", 1)
+	rem:SetAttribute("ProjectileCount", 0)
 	rem:SetAttribute("FireRate", 2)
 	rem:SetAttribute("SpreadRadius", 0)
+	rem:SetAttribute("CurrentAmmo", 3)
 	rem:SetAttribute("MaxAmmo", 3)
 	
 	rem.Name = "M700"
